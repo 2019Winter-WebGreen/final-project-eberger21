@@ -1,0 +1,163 @@
+/*
+* Erin Berger
+* May 30, 2019 
+* Marie Curie 
+*/
+
+/* The universal selector */
+
+* . {
+    margin: 0;
+    padding: 0; 
+}
+
+
+
+
+/* this is for the header which makes the background color and the padding around it. the text is aligned in the center because it's a title  */
+header {
+    margin: 1px 1px 10px 1px;
+    padding: 1px 1px 1px 1px; 
+    background-color: #96ded1; 
+    border: 5px solid  #ffcc80;  
+    text-align: center; 
+}
+
+
+
+
+/* only this font showed up in orange and the others stayed black so there is just one font */ 
+body { 
+    font-family: sans-serif; 
+    background-color: #3b6363; 
+    margin: 15px auto;   
+}
+
+
+
+/*this is so the 1 heads are all a color */
+h1 {
+    text-align: center; 
+    color: #df6f46; 
+    text-decoration: overline underline; 
+}
+
+
+
+
+/* this is the first column with a border and background color that is separatedfrom the main, header, andfooter with padding */
+#sidebarA {
+    margin: 1px 1px 1px 1px; 
+    padding: 1px 1px 1px 1px;
+    width: 19%; 
+    height: 655px;
+    float: left;
+    border-left: 5px solid  #ffcc80;
+    border-right: 5px solid #ffcc80; 
+    text-align: center; 
+    border-bottom: 5px solid #ffcc80;
+    border-top: 5px solid #ffcc80;
+    background-color: #96ded1;
+}
+
+
+
+
+/* this is the picture that is in the the center of sidebar A and it has borders and a size that fits with the box  */
+#curie1 {
+    width: 100px;
+    height: 125px; 
+    border: 3px solid #3b6363; 
+}
+
+
+
+
+
+/* this is the center column with a border and background color that is separatedfrom the header, footer, and other columns with padding. also margins so the words aren't too close to the borders  */
+main { 
+    margin: 1px 1px 1px 2px;
+    padding: 2px 10px 2px 10px;
+    width: 57.5%; 
+    float: left;
+    height: 655px; 
+    background-color: ghostwhite; 
+    border: 5px solid #ffcc80; 
+}
+
+
+
+
+/* this is the picture that is in the the center of the main because I put it into a figure. it has borders and a size that fits the box  */
+#quote {
+    height: 200px;
+    width: 600px; 
+    border: 3px solid #3b6363;
+}
+
+
+
+
+/* this is the third column with a border and background color that is separated from the main, header, and footer with padding */
+#sidebarB {
+    margin: 1px 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
+    width: 19%;
+    height: 655px;
+    float: left;
+    border-left: 5px solid  #ffcc80; 
+    text-align: center;
+    border-bottom: 5px solid #ffcc80;
+    border-top: 5px solid #ffcc80;
+    border-right: 5px solid  #ffcc80;
+    background-color: #96ded1;
+}
+
+
+
+
+/* this is the picture that is in the the center of sidebar B and it has borders and a size that fits with the box  */
+#curie2 {
+    width: 105px;
+    height: 130px;
+    border: 3px solid #3b6363; 
+}
+
+
+
+
+/* this is the footer at the bottom of the page with a border and background color that is separated from the other columns with padding. also margins so the words aren't too close to the borders  */
+footer {
+    margin: 700px 3px 1px 3px;
+    padding: 10px 1px 10px 20px;
+    width: 98%; 
+    background-color: #96ded1; 
+    border-bottom: 5px solid  #ffcc80; 
+    border-right: 5px solid  #ffcc80;
+    border-left: 5px solid  #ffcc80;
+    border-top: 5px solid  #ffcc80;
+    text-align: left;
+}
+
+
+
+/* this is so that the headings in the second largest "setting" can look like the h1 ones  */
+h2 { 
+    color: #df6f46; 
+    text-decoration: overline underline;
+}
+
+
+
+
+
+/* these are for the links so that they display diffrently than the default and that they chang colors after they're visited. And  */
+a:link {
+    color: #3b6363;
+    text-decoration: underline; }
+
+
+a:hover , a:focus {
+	color: #df6f46; 
+	font-size: 20px; }
+
